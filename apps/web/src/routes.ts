@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router";
-import App from "./App";
+import Root from "./routes/root.tsx";
 
 const router = createBrowserRouter([
-  { path: "/", Component: App },
+  { path: "/", Component: Root },
 ]);
 
 export default router;

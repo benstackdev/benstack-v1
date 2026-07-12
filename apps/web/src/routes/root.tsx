@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-function App() {
+function Root() {
 	const [serverData, setServerData] = useState('');
 
 	useEffect(() => {
@@ -24,4 +24,4 @@ function App() {
 	)
 }
 
-export default App
+export default Root;
