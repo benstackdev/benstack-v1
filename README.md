@@ -53,7 +53,7 @@ pnpm run build:api
 ├── .env.example					# Example .env file with required variables
 ├── .gitignore
 ├── package.json					# Root package.json with run script definitions
-├── pnpm-workspace.yaml		    # pnpm workspace configurations
+├── pnpm-workspace.yaml		        # pnpm workspace configurations
 ├── README.md					
 └── tsconfig.json					# Root tsconfig.json 
 ```
