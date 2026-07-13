@@ -44,12 +44,12 @@ pnpm run build:api
 ```
 .
 ├── apps/
-│		├── api/							# Hono project for backend
-│		└── web/							# React + Vite project for frontend
+│	├── api/							# Hono project for backend
+│	└── web/							# React + Vite project for frontend
 ├── packages/
-│		├── api-client/				# Layer between web and api apps for HTTP fetches
-│		├── db/								# Postgres database client with Drizzle ORM config
-│		└── shared/						# Schemas and types (Zod and/or TS)
+│	├── api-client/				# Layer between web and api apps for HTTP fetches
+│	├── db/								# Postgres database client with Drizzle ORM config
+│	└── shared/						# Schemas and types (Zod and/or TS)
 ├── .env.example					# Example .env file with required variables
 ├── .gitignore
 ├── package.json					# Root package.json with run script definitions
