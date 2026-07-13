@@ -6,7 +6,10 @@
   "scripts": {
     "dev:web": "pnpm run --filter web dev",
     "dev:api": "pnpm run --filter api dev",
-    "dev": "pnpm run dev:web & pnpm run dev:api"
+    "dev": "pnpm run dev:web & pnpm run dev:api",
+    "db:generate": "pnpm run --filter db generate",
+    "db:push": "pnpm run --filter db push",
+    "db:studio": "pnpm run --filter db studio"
   },
   "keywords": [],
   "author": "",
