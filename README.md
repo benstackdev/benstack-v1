@@ -38,7 +38,6 @@ pnpm run build:api
 |----------|-------------|
 | `db` | Basic Drizzle ORM connected to a Postgres database (locally for now) |
 | `shared` | Zod schemas and types |
-| `api-client` | Layer between `web` and `api` apps to handle HTTP fetches and errors |
 
 ## Project structure:
 ```
