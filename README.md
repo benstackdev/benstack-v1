@@ -21,7 +21,7 @@ pnpm run dev:api
 # Build both web and api apps
 pnpm run build
 
-# Build just web app
+# Build web app
 pnpm run build:web
 
 # Build api app
