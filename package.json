@@ -8,8 +8,10 @@
     "dev:api": "pnpm run --filter api dev",
     "dev": "pnpm run dev:web & pnpm run dev:api",
     "db:generate": "pnpm run --filter db generate",
+    "db:migrate": "pnpm run --filter db migrate",
     "db:push": "pnpm run --filter db push",
-    "db:studio": "pnpm run --filter db studio"
+    "db:studio": "pnpm run --filter db studio",
+    "shared:build": "pnpm run --filter shared build"
   },
   "keywords": [],
   "author": "",
